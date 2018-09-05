@@ -1,0 +1,35 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+	É criado uma pasta oculta com o nome .git no diretório selecionado. Para ter acesso ao controle de versão dos arquivos, deve-se criar, inicialmente, um repositório.
+	
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+
+	A área de preparação serve indicar ao Git quais alterações serão confirmadas no novo commit a ser criado. É bastante útil caso modifique vários arquivos, mas separe
+	em vários commits essas modificações para se ter um melhor controle de versão.
+	
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+
+	Você pode selecionar quais arquivos serão confirmados para a criação de um novo commit.
+	
+Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+
+	Você pode separar o seu projeto para trabalhar em diferentes implementações de recursos. Na criação ou teste de uma ferramenta experimental em que não tenha certeza do 
+	funcionamento ou para a tradução do programa em outras línguas.
+	
+Como os diagramas ajudam a visualizar a estrutura de branches?
+
+	Com o diagrama é possível visualizar para onde cada commit aponta, podendo entender facilmente como funciona os branches e qual o seu histórico de commits caso execute o git log.
+	
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+
+	A fusão de dois branches une as implementações realizadas em cada um deles separadamente (pode ocorrer de não fundir todas as implementações). 
+	Ele aponta sempre para os dois branches que se fundiram para se tornar o atual.
+	
+Quais são os prós e contras da mesclagem automática do Git vs sempre fazer mesclagens manualmente?
+
+	Com as mesclagens automáticas, não se tem um controle eficiente das alterações que irão para o arquivo, podendo perder funções significativas e ocorrer bugs na hora de compilar.
+	Com a mesclagem manual, você pode escolher quais alterações irão para o arquivo e descartar aquelas que não são necessárias, evitando problemas como mencionado anteriormente.
+	
+	
+
+	

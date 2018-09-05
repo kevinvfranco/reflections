@@ -1,0 +1,37 @@
+Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver o bug que foi introduzido?
+
+	O diff mostra o que foi introduzido e o que foi retirado na comparação de duas versões.
+
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+
+	Caso ocorra a aparição de bugs nas novas versões, você consegue facilmente identificar as mudanças que ocorreram
+	ao longo do desenvolvimento do arquivo.
+
+Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, vs o 
+salvamento automático de versões, como no Google Docs?
+
+	Manualmente, você pode criar um commit assim que considerar uma mudança significativa, enquanto que o salvamento 
+	automático pode gerar commits sem ter feito mudanças relevantes.
+
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, 
+enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+	Visa tornar mais eficiente o controle de versão, pois podemos fazer alterações em vários arquivos e criar um 
+	commit apenas para todas as alterações nos diversos arquivos, enquanto separadamente devemos criar um commit 
+	para cada arquivo que foi modificado.
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+	Ao executar o comando git log, ele mostrará na tela uma lista dos commits com informações sobre eles, incluindo
+	suas IDs. Ao usar git diff seguido por dois IDs do commit, irá comparar as duas versões do código nesses 
+	commits.
+	
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+
+	Você pode verificar facilmente as versões anteriores à alteração no código que causou algum problema, bem
+	como comparar as versões existentes.
+	
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+
+	Realizar o controle de versão de futuros projetos a serem desenvolvidos.
+	
