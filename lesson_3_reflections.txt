@@ -1,3 +1,11 @@
 Quando gostaria de usar um repositório remoto em vez de manter o trabalho local?
 
   Caso esteja desenvolvendo um projeto em grupo ou para ter acesso em qualquer lugar e em qualquer dispositivo.
+  
+Descreva as diferenças entre bifurcações, clones e branches. Quando você usaria um e não os outros?
+
+  Clone: Cria uma cópia do repositório no GitHub no computador local. Branches: Cria um novo ramo a partir de um commit, sendo que esse     não interfere no ramo original daquele commit. Bifurcações: Cria uma cópia do repositório no GitHub de algum autor no seu repositório do   GitHub, no qual você pode realizar suas próprias alterações conforme desejar, podendo, inclusive, clonar para o computador local.
+  
+Qual é o benefício de ter uma cópia do último estado conhecido do remoto armazenado localmente?
+
+  Evita conflito de alterações realizadas no mesmo arquivo em diferentes locais. 
