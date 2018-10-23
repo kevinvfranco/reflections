@@ -9,3 +9,12 @@ Descreva as diferenças entre bifurcações, clones e branches. Quando você usa
 Qual é o benefício de ter uma cópia do último estado conhecido do remoto armazenado localmente?
 
   Evita conflito de alterações realizadas no mesmo arquivo em diferentes locais. 
+  
+Como você colaboraria sem usar Git ou GitHub? O que seria mais fácil e mais difícil?
+
+  Usaria algum método adotado mundialmente pelos melhores programadores. Talvez a falta de algumas funções existentes no Git e GitHub       poderia dificultar o trabalho conjunto de programadores. Seria mais fácil por não exigir um conhecimento abrangente dessas técnicas
+  presentes no Git e GitHub.
+  
+Quando você gostaria de fazer alterações em um branch separado, e não diretamente no master? Quais são os benefícios de cada abordagem?
+
+  Quando estivesse trabalhando em um projeto com uma equipe de programadores ou para testar novas ferramentas. Ao criar um novo branch,     você tem pode fazer alterações nos arquivos sem interferir no ramo original. Caso contrário, se você encontrar algum bug, terá de         aplicá-lo no ramo principal.
